@@ -46,7 +46,6 @@ Test cases and xml test description for DSME
 
 %build
 unset LD_AS_NEEDED
-./verify_version.sh
 chmod a+x autogen.sh
 ./autogen.sh
 chmod a+x configure
